@@ -16,7 +16,7 @@ a1: $(OBJS)
 testmemory: a1
 	$(VAL) ./a1 10
 
-testall: test1 test2 test3 test4
+testall: test1 test2 test3 test4 test5
 
 test1: a1
 	./a1 10 > output10
@@ -29,6 +29,9 @@ test3: a1
 
 test4: a1
 	./a1 33 > output33
+
+test5: a1
+	./a1 2 > output2
 
 clean:
 	rm -f a1 *.o *.txt output? *~

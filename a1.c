@@ -21,4 +21,4 @@ void coins(int val){
 
     return;
 }
-#endif# 368-hw1-dyang54321 hw1.h main.c Makefile
+#endif
