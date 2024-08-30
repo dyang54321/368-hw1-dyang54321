@@ -3,14 +3,10 @@
 #include <string.h>
 #include "hw1.h"
 
-int main(int argc, char ** argv)
+int main(void)
 {
-    if (argc != 2)
-    {
-        return EXIT_FAILURE;
-    }
-
-    int val = (int) strtol(argv[1], NULL, 10);
+    int val;
+    scanf("%d", &val);
     coins(val);
 
     return EXIT_SUCCESS;
