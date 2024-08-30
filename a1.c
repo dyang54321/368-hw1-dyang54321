@@ -14,7 +14,7 @@ void coins(int val){
             // iterating through nickels
             for(int n = dr / 5; n >= 0; n--){
                 int p = dr - n * 5; //pennies remaining after nickels removed
-                printf(" Expected: %d quarter(s), %d dime(s), %d nickel(s), %d pennie(s)\n", q, d, n, p);
+                printf("%d quarter(s), %d dime(s), %d nickel(s), %d pennie(s)\n", q, d, n, p);
             }
         }
     }
